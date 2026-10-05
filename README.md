@@ -8,14 +8,15 @@ Este repositorio solo contiene los paquetes: el código no está aquí.
 
 Descarga la última versión desde [Releases](https://github.com/Willi005/codeweaves-releases/releases):
 
-- **AppImage:** `chmod +x CodeWeaves-Studio-*-x86_64.AppImage` y ábrela.
+- **AppImage:** `chmod +x CodeWeaves-Studio-*-x86_64.AppImage` y ábrela. La primera vez crea su entrada en el menú de aplicaciones.
 - **Debian y Ubuntu:** `sudo apt install ./codeweaves-studio_*_amd64.deb`.
-- **Otros:** descomprime el `.tar.gz` y abre `codeweaves-studio`.
+
+Los dos formatos se actualizan solos. Hasta la 0.2.0-alpha.4 también se publicaba un `.tar.gz`, que no puede actualizarse solo: si tienes esa copia, instala una vez la AppImage o el `.deb`.
 
 Necesita **git**. La propia app instala y conecta los programas de los proveedores.
 
 ## Actualizaciones
 
-Desde la 0.2.0-alpha.2, la app busca aquí las versiones nuevas y avisa cuando hay una. Con **Update** la descarga, y con **Restart to update** se instala y se vuelve a abrir. `latest-linux.yml` es el archivo que lee la app.
+Desde la 0.2.0-alpha.2, la app busca aquí las versiones nuevas y avisa cuando hay una. Con **Update** la descarga, y con **Restart to update** se instala y se vuelve a abrir. También puedes buscar en el momento en **Settings → Updates**. `latest-linux.yml` es el archivo que lee la app.
 
 Las sumas SHA-256 de cada versión van en su `SHA256SUMS.txt`.
