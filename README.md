@@ -20,3 +20,8 @@ Necesita **git**. La propia app instala y conecta los programas de los proveedor
 Desde la 0.2.0-alpha.2, la app busca aquí las versiones nuevas y avisa cuando hay una. Con **Update** la descarga, y con **Restart to update** se instala y se vuelve a abrir. También puedes buscar en el momento en **Settings → Updates**. `latest-linux.yml` es el archivo que lee la app.
 
 Las sumas SHA-256 de cada versión van en su `SHA256SUMS.txt`.
+
+## Versiones beta
+
+Desde la 0.2.0-beta.1 las versiones se publican como beta (`0.2.0-beta.N`), todavía como prerelease. Las alfas instaladas se actualizan a la beta con **Settings → Updates**.
+
