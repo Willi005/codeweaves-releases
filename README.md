@@ -4,20 +4,21 @@ Aquí se publican las versiones de **CodeWeaves Studio**, un entorno de escritor
 
 Este repositorio solo contiene los paquetes: el código no está aquí.
 
-## Instalar (Linux x86_64)
+## Instalar (Linux x86_64 y Windows 11 x64)
 
 Descarga la última versión desde [Releases](https://github.com/Willi005/codeweaves-releases/releases):
 
 - **AppImage:** `chmod +x CodeWeaves-Studio-*-x86_64.AppImage` y ábrela. La primera vez crea su entrada en el menú de aplicaciones.
 - **Debian y Ubuntu:** `sudo apt install ./codeweaves-studio_*_amd64.deb`.
+- **Windows 11 x64 (desde la 0.2.0-beta.3):** ejecuta `CodeWeaves-Studio-*-x64-Setup.exe`. Se instala por usuario, sin permisos de administrador. El instalador no está firmado, así que Windows puede avisar de editor desconocido: comprueba su suma en `SHA256SUMS.txt`.
 
-Los dos formatos se actualizan solos. Hasta la 0.2.0-alpha.4 también se publicaba un `.tar.gz`, que no puede actualizarse solo: si tienes esa copia, instala una vez la AppImage o el `.deb`.
+Los tres formatos se actualizan solos. Hasta la 0.2.0-alpha.4 también se publicaba un `.tar.gz`, que no puede actualizarse solo: si tienes esa copia, instala una vez la AppImage o el `.deb`.
 
-Necesita **git**. La propia app instala y conecta los programas de los proveedores.
+Necesita **git** (en Windows, Git for Windows). La propia app instala y conecta los programas de los proveedores.
 
 ## Actualizaciones
 
-Desde la 0.2.0-alpha.2, la app busca aquí las versiones nuevas y avisa cuando hay una. Con **Update** la descarga, y con **Restart to update** se instala y se vuelve a abrir. También puedes buscar en el momento en **Settings → Updates**. `latest-linux.yml` es el archivo que lee la app.
+Desde la 0.2.0-alpha.2, la app busca aquí las versiones nuevas y avisa cuando hay una. Con **Update** la descarga, y con **Restart to update** se instala y se vuelve a abrir. También puedes buscar en el momento en **Settings → Updates**. `latest-linux.yml` (Linux) y `latest.yml` (Windows) son los archivos que lee la app.
 
 Las sumas SHA-256 de cada versión van en su `SHA256SUMS.txt`.
 
