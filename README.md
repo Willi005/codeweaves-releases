@@ -1,4 +1,26 @@
-# CodeWeaves Studio — versiones
+<p align="center">
+  <img src="assets/codeweaves.svg" width="128" alt="El agentito de CodeWeaves" />
+</p>
+
+<h1 align="center">CodeWeaves Studio</h1>
+
+<p align="center"><b>Diseña interfaces junto a agentes de IA, en un lienzo que se edita en vivo.</b></p>
+
+<p align="center">
+  <a href="https://github.com/Willi005/codeweaves-releases/releases"><img alt="Versión" src="https://img.shields.io/github/v/release/Willi005/codeweaves-releases?include_prereleases&label=versi%C3%B3n&color=6E56CF" /></a>
+  <a href="https://github.com/Willi005/codeweaves-releases/releases"><img alt="Descargas" src="https://img.shields.io/github/downloads/Willi005/codeweaves-releases/total?label=descargas&color=22C55E" /></a>
+  <img alt="Linux x86_64" src="https://img.shields.io/badge/Linux-x86__64-FCC624?logo=linux&logoColor=black" />
+  <img alt="Windows 11 x64" src="https://img.shields.io/badge/Windows%2011-x64-0078D6?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wIDBoMTF2MTFIMHpNMTMgMGgxMXYxMUgxM3pNMCAxM2gxMXYxMUgwek0xMyAxM2gxMXYxMUgxM3oiLz48L3N2Zz4%3D" />
+  <img alt="Estado: beta" src="https://img.shields.io/badge/estado-beta-F59E0B" />
+</p>
+
+<p align="center">
+  <img alt="Claude Code" src="https://img.shields.io/badge/Claude%20Code-D97757?logo=claude&logoColor=white" />
+  <img alt="Codex" src="https://img.shields.io/badge/Codex-10A37F" />
+  <img alt="OpenCode" src="https://img.shields.io/badge/OpenCode-64748B" />
+  <img alt="Antigravity" src="https://img.shields.io/badge/Antigravity-4285F4?logo=google&logoColor=white" />
+  <img alt="MCP" src="https://img.shields.io/badge/MCP-solo%20lectura-6E56CF" />
+</p>
 
 **CodeWeaves Studio** es una app de escritorio para diseñar interfaces junto a agentes de IA. Cada diseño es un frame del lienzo guardado como un archivo HTML legible (`design.cw.html`), y tiene su propio agente: **Claude Code, Codex, OpenCode o Antigravity**. Lo que cambias en el lienzo y lo que escribe el agente se ve al instante, en los dos sentidos.
 
