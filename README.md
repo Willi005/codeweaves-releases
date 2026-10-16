@@ -28,7 +28,7 @@ Este repositorio solo publica los paquetes; el código no está aquí.
 
 **Versión actual: [0.2.0-beta.6](https://github.com/Willi005/weft-studio-releases/releases/tag/v0.2.0-beta.6)** (15-10-2026), para Linux x86_64 y Windows 11 x64, publicada todavía como CodeWeaves Studio.
 
-> **CodeWeaves Studio ahora es Weft Studio.** Si tienes CodeWeaves Studio instalada, se actualiza sola a Weft Studio desde la app y conserva tus proyectos, cuentas, ajustes y preferencias. Los proyectos se convierten al formato `.ws.html` la primera vez que los abres. Si usas el MCP en otra herramienta, vuelve a registrarlo con el comando de **Settings → Connect**.
+> **CodeWeaves Studio pasa a llamarse Weft Studio.** La 0.2.0-beta.6 es la última versión con el nombre anterior. Cuando se publique la primera versión de Weft Studio, una CodeWeaves Studio instalada se actualizará sola desde la app y conservará tus proyectos, cuentas, ajustes y preferencias; los proyectos se convierten al formato `.ws.html` la primera vez que los abras. Si usas el MCP en otra herramienta, vuelve a registrarlo con el comando de **Settings → Connect**.
 
 ## Qué puedes hacer
 
@@ -50,6 +50,8 @@ Descarga la última versión desde [Releases](https://github.com/Willi005/weft-s
 | Linux x86_64 | `Weft-Studio-<versión>-x86_64.AppImage` | `chmod +x` y ábrela; la primera vez crea su entrada en el menú de aplicaciones |
 | Debian / Ubuntu | `weft-studio_<versión>_amd64.deb` | `sudo apt install ./weft-studio_<versión>_amd64.deb` (instala también git y reemplaza `codeweaves-studio`) |
 | Windows 11 x64 | `Weft-Studio-<versión>-x64-Setup.exe` | Ejecútalo; se instala por usuario, sin permisos de administrador |
+
+Hasta la 0.2.0-beta.6 los archivos se llaman con el nombre anterior: `CodeWeaves-Studio-<versión>-x86_64.AppImage`, `codeweaves-studio_<versión>_amd64.deb` y `CodeWeaves-Studio-<versión>-x64-Setup.exe`.
 
 **Requisitos:**
 - **git** (en Windows, [Git for Windows](https://git-scm.com/download/win)).
